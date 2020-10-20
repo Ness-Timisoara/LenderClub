@@ -1,0 +1,1 @@
+D:\LX_DOCS\GIT_REPOS\loan-risk-build-model\workspace\kubeflow-mnist\mnist-1600213482.h5

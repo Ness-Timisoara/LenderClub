@@ -1,0 +1,10 @@
+python loan_preprocessing.py --data_dir=data/accepted_2007_to_2018Q4_TEST.csv --loadmode=train --output_dir=../../TEST_LOAD
+
+python loan_train_nn.py  --trainmode=train --input_path=../../TEST_LOAD --output_dir=../../TEST_LOAD
+
+python loan_predict_evaluation.py --loadtype=evaluation
+
+python loan_flask_app.py
+
+
+

@@ -1,0 +1,5 @@
+/venv
+/interim
+*.pkl
+*.pickle
+*.csv
